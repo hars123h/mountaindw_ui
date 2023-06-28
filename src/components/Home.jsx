@@ -394,7 +394,7 @@ const Home = () => {
                         <div className='text-lg text-red-700 '>Withdrawal</div>
                     </div>
 
-                    <a href="https://telegram.me/jiofieberofficial" className=' no-underline  cursor-pointer'>
+                    <a href="https://telegram.me/mountaindewofficial" className=' no-underline  cursor-pointer'>
                         <div className='cursor-pointer mx-2 flex flex-col justify-center items-center'>
                             <img src={asset2} alt="online" className='w-12' />
                             <div className='text-lg text-red-700 '>Online</div>

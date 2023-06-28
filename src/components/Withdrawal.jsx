@@ -69,7 +69,7 @@ const Withdrawal = () => {
             const docRef = await axios.post(`${BASE_URL}/get_user`, {user_id: localStorage.getItem('uid')}).then(({data})=>data);
             if (docRef) {
                 if (docRef.bank_details.bankAccount.length===0) {
-                    toaster('Fill bank details first!', '/bank');
+                    toaster('Unbound bank card, go to bind!', '/bank');
                 } else {
                     setDetails(docRef.bank_details);
                     docRef.balance ? setBalance(docRef.balance) : setBalance(0);
