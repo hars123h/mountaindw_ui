@@ -38,7 +38,7 @@ import my3 from '../images/asml/my3.png';
 import my4 from '../images/asml/my4.png';
 import my5 from '../images/asml/my5.png';
 import jio from '../images/asml/jio.png';
-import jlogo from '../images/asml/jlogo.jpg';
+import logo from '../images/dew/logo.webp';
 
 
 const customStyles2 = {
@@ -286,7 +286,7 @@ const Mine = () => {
 
       <div className="flex flex-col bg-white gap-3">
         <div className='flex  justify-start items-center p-3 mt-4'>
-          <img src={jlogo} alt="wind_login" width={130} className="bg-white py-2  rounded-full" />
+          <img src={logo} alt="wind_login" width={130} className="bg-white py-2  rounded-full" />
           <div className='text-2xl'>{mobileno}
             {/* <span className='border border-red-700 px-1 text-red-700 rounded-xl text-xs'>LV0</span> */}
           </div>

@@ -1,19 +1,19 @@
 {
-  "short_name": "Jio Fiber",
+  "short_name": "Mountaindw",
   "name": "WebApp",
   "icons": [
     {
-      "src": "jio.png",
+      "src": "mountaindw.png",
       "sizes": "200x54",
       "type": "image/x-icon"
     },
     {
-      "src": "jio.png",
+      "src": "mountaindw.png",
       "type": "image/png",
       "sizes": "200x54"
     },
     {
-      "src": "jio.png",
+      "src": "mountaindw.png",
       "type": "image/png",
       "sizes": "200x54"
     }
