@@ -57,7 +57,7 @@ const Card = ({ pre_sale, long_plan_state, product_type, product_image, plan_nam
               onClick={() => handleClick(product_type, plan_name, plan_type, plan_amount, plan_daily_earning, plan_cycle)}>
               Buy Now
             </div>
-          ) : (long_plan_state === true) && false ? (
+          ) : (long_plan_state === true)  ? (
             <div className="cursor-pointer btn text-white font-semibold text-center  py-2  px-2 mt-5 text-md mb-2 shadow-md  w-[55%] mx-auto bg-red-700">
               Buy Now
             </div>

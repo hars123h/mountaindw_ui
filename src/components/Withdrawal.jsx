@@ -167,8 +167,8 @@ const Withdrawal = () => {
     }
 
     const isBetween = () => {
-        var startTime = '9:30:00';
-        var endTime = '15:00:00';
+        var startTime = '9:00:00';
+        var endTime = '18:00:00';
 
         var currentDate = new Date()
 
@@ -281,7 +281,7 @@ const Withdrawal = () => {
                 isBetween() ?
                 <button onClick={handleLastButton} className='bg-red-800 rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
                 :
-                <button onClick={()=>toaster('You can withdraw only between 09:30 AM to 03:00 PM')}  className='bg-red-800 rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
+                <button onClick={()=>toaster('You can withdraw only between 09:00 AM to 06:00 PM')}  className='bg-red-800 rounded-md text-white text-lg mt-5 mx-auto  mb-20  shadow-md block w-[95%] py-2 shadow-slate-400'>Confirm</button>
             }
             
         </div>
