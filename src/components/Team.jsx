@@ -17,6 +17,7 @@ import asset6 from '../images/asml/asset 6.png';
 import asset7 from '../images/asml/asset 7.png';
 import asset8 from '../images/asml/asset 8.png';
 import jio from '../images/asml/jio.png';
+import logo from '../images/dew/logo.webp';
 
 
 
@@ -148,7 +149,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border leading-3 border-gray-300 text-[10px] py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={jio} alt="turbo_logo" width={70} className='m-1' />
+                    <img src={logo} alt="turbo_logo" width={70} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>
@@ -183,7 +184,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border border-gray-300  text-[10px] leading-3 py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={jio} alt="turbo_logo" width={80} className='m-1' />
+                    <img src={logo} alt="turbo_logo" width={80} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>
@@ -215,7 +216,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border border-gray-300 leading-3 text-[10px] py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={jio} alt="turbo_logo" width={80} className='m-1' />
+                    <img src={logo} alt="turbo_logo" width={80} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>
